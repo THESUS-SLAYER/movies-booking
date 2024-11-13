@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.movie {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.movie img {
+    max-width: 200px;
+    min-height: 300px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.movie div {
+    margin: 15px 10px;
+    padding: 2px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.upcomingmovies
+{
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.upcomingmovies img {
+    max-width: 200px;
+    min-height: 300px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+h1
+{
+    font-size: 50px;
+}
+h2
+{
+    text-align: center;
+}
+
+@media screen and (max-width:500px){
+
+    .movie img {
+        max-width: 150px;
+        min-height: 250px;
+        object-fit: contain;
+        border-radius: 5px;
+    }
+    
+    .movie div {
+        margin: 10px 5px;
+        padding: 0px;
+    }
+
+    .upcomingmovies img {
+        max-width: 150px;
+        min-height: 250px;
+        object-fit: contain;
+        border-radius: 2px;
+    }
+    .upcomingmovies div{
+        margin: 5px 2px;
+        padding: 0px;
+
+    }
+
+    .upcomingmovies div p{
+        font-size: 12px;
+
+    }
+
+    h2
+    {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width:380px){
+
+    .movie img {
+        max-width: 100px;
+        min-height: 150px;
+        object-fit: contain;
+        border-radius: 5px;
+    }
+    
+    .movie div {
+        margin: 5px 3px;
+        padding: 0px;
+    }
+    .movie div p {
+        font-size: 10px;
+    }
+    .movie div button
+    {
+        font-size: 8px;
+    }
+    .movie div h3 {
+        font-size: 13px;
+    }
+
+
+    .upcomingmovies img {
+        max-width: 100px;
+        min-height: 150px;
+        object-fit: contain;
+        border-radius: 2px;
+    }
+    .upcomingmovies div{
+        margin: 5px 2px;
+        padding: 0px;
+
+    }
+
+    .upcomingmovies div p{
+        font-size: 10px;
+
+    }
+
+    .upcomingmovies div h3{
+        font-size: 14px;
+
+    }
+
+    h2
+    {
+        text-align: center;
+    }
+}
