@@ -114,28 +114,39 @@ h2
     text-align: center;
 }
 
-@media screen and (max-width:500px){
+/* mobile devices */
+@media screen and (min-width:321px) and (max-width:500px){
 
     .movie img {
-        max-width: 150px;
-        min-height: 250px;
+        max-width: 140px;
+        min-height: 240px;
         object-fit: contain;
         border-radius: 5px;
     }
     
     .movie div {
-        margin: 10px 5px;
+        margin: 8px 4px;
         padding: 0px;
+    }
+    .movie div p {
+        font-size: 12px;
+    }
+    .movie div button
+    {
+        font-size: 12px;
+    }
+    .movie div h3 {
+        font-size: 15px;
     }
 
     .upcomingmovies img {
-        max-width: 150px;
-        min-height: 250px;
+        max-width: 140px;
+        min-height: 240px;
         object-fit: contain;
         border-radius: 2px;
     }
     .upcomingmovies div{
-        margin: 5px 2px;
+        margin: 10px 5px;
         padding: 0px;
 
     }
@@ -145,62 +156,141 @@ h2
 
     }
 
+    .upcomingmovies div h3{
+        font-size: 15px;
+
+    }
+
     h2
     {
         text-align: center;
     }
 }
 
-
-@media screen and (max-width:380px){
+/*samll mobile devices*/
+@media screen and (min-width: 100px) and (max-width:320px) {
 
     .movie img {
-        max-width: 100px;
-        min-height: 150px;
+        max-width: 90px;
+        min-height: 130px;
         object-fit: contain;
         border-radius: 5px;
     }
     
     .movie div {
-        margin: 5px 3px;
+        margin: 3px 2px;
         padding: 0px;
     }
     .movie div p {
-        font-size: 10px;
+        font-size: 8px;
     }
     .movie div button
     {
         font-size: 8px;
     }
     .movie div h3 {
-        font-size: 13px;
+        font-size: 11px;
     }
 
 
     .upcomingmovies img {
-        max-width: 100px;
-        min-height: 150px;
+        max-width: 90px;
+        min-height: 130px;
         object-fit: contain;
         border-radius: 2px;
     }
     .upcomingmovies div{
-        margin: 5px 2px;
+        margin: 3px 2px;
         padding: 0px;
 
     }
 
     .upcomingmovies div p{
-        font-size: 10px;
+        font-size: 8px;
 
     }
 
     .upcomingmovies div h3{
-        font-size: 14px;
+        font-size: 12px;
 
     }
+    .movie
+    {
+        padding: 5px;
+        margin: 3px 0;  
+    }
+    .upcomingmovies
+    {
+        padding: 5px;
+        margin: 3px 0;
+   }
 
     h2
     {
         text-align: center;
     }
+}
+
+/* Tablet Devices */
+@media only screen and (min-width: 550px) and (max-width:950px)
+{
+        .movie img {
+            max-width: 165px;
+            min-height: 255px;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+        
+        .movie div {
+            margin: 14px 8px;
+            padding: 5px;
+        }
+        .movie div p {
+            font-size: 14px;
+        }
+        .movie div button
+        {
+            font-size: 13px;
+        }
+        .movie div h3 {
+            font-size: 16px;
+        }
+    
+    
+        .upcomingmovies img {
+            max-width: 165px;
+            min-height: 255px;
+            object-fit: contain;
+            border-radius: 2px;
+        }
+        .upcomingmovies div{
+            margin: 14px 8px;
+            padding: 5px;
+    
+        }
+    
+        .upcomingmovies div p{
+            font-size: 14px;
+    
+        }
+    
+        .upcomingmovies div h3{
+            font-size: 16px;
+    
+        }
+        .movie
+        {
+            padding: 5px;
+            margin: 5px ;  
+        }
+        .upcomingmovies
+        {
+            padding: 5px;
+            margin: 5px ;
+       }
+    
+        h2
+        {
+            text-align: center;
+        }
 }
